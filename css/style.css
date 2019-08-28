@@ -1,0 +1,53 @@
+/* Подключение шрифта*/
+@font-face{
+    font-family: 'Franklin Gothc Regular';
+    src: url('/font/Franklin Gothic.ttf');    
+}
+
+body {
+    background-color: #141b23;
+    font-family: 'Franklin Gothic', sans-serif;
+    background-image: url('../image/Bitmap.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+    color: #fff;    
+}
+
+/* Навигация и ссылки*/
+.nav {
+    
+    margin-top: 65px;
+    margin-left: 55px;    
+}
+
+.link {
+    color: #919aa9;
+    text-decoration: none;
+    line-height: 18px;
+    margin-right: 15px;    
+}
+.active {
+    font-size: 17px;
+    margin-right: 25px;
+}
+
+/* Контент*/
+.text {
+    font-size: 25px;
+    margin-top: 71px;
+    margin-left: 96px;
+}
+
+.content{
+    font-size: 13px;
+    margin-top: 10px;
+    margin-left: 95px;
+}
+
+/* Футер*/
+.footer {
+    color: #42474e;
+    font-size: 12px;
+    margin-top: 198px;
+    margin-left: 54px;
+}
